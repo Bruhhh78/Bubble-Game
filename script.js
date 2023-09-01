@@ -44,6 +44,9 @@ document.querySelector("#pbtm").addEventListener("click", function (data) {
     makeBubble();
     getNewHit();
     console.log("Congratulation! You Got a Score :)");
+  }else{
+    console.log("You Clicked Wrong Bubble!")
+    document.querySelector("#pbtm").innerHTML=`<h1>You Clicked Wrong Bubble!</h1>`
   }
 });
 
